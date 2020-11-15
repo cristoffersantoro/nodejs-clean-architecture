@@ -4,7 +4,7 @@
   "description": "my own cleancode nodejs boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch",
     "test:staged": "jest"
   },
   "repository": {
