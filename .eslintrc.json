@@ -6,7 +6,8 @@
     "rules":{
         "typescript-eslint/strict-boolean-expressions": "off",
         "@typescript-eslint/comma-spacing": "off",
-        "@typescript-eslint/strict-boolean-expressions": "off"
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/method-signature-style": "off"
 
     }
 }
