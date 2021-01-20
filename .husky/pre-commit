@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname $0)/_/husky.sh"
 
-npx eslint 'src/**/*.ts' && npm run test:staged
+npx eslint 'src/**/*.ts' --fix && git add --all && npm run test:staged
